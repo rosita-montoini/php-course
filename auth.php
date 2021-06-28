@@ -3,4 +3,4 @@
         setcookie('user', 'true', time() - 3600, '/');
     else
         setcookie('user', 'true', time() + 3600, '/');
-        header("Location: /php-example/index.php");
+        header("Location: /index.php");
